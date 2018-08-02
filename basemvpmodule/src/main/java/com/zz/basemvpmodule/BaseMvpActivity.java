@@ -1,12 +1,12 @@
-package com.zhangzong.basemvpmodule.basemvpproject;
+package com.zz.basemvpmodule;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.BaseMvpView;
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.BasePresenter;
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.PresenterDispatch;
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.PresenterProviders;
+import com.zz.basemvpmodule.basemvp.BaseMvpView;
+import com.zz.basemvpmodule.basemvp.BasePresenter;
+import com.zz.basemvpmodule.basemvp.PresenterDispatch;
+import com.zz.basemvpmodule.basemvp.PresenterProviders;
 
 
 /**

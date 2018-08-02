@@ -1,7 +1,7 @@
-package com.zhangzong.basemvpmodule.basemvpproject.example.activity;
+package com.zz.basemvpmodule.example.activity;
 
 
-import com.zhangzong.basemvpmodule.basemvpproject.BaseMvpActivity;
+import com.zz.basemvpmodule.BaseMvpActivity;
 
 /**
  * 例子4：不使用 mvp 的情况

@@ -1,4 +1,4 @@
-package com.zhangzong.basemvpmodule.basemvpproject;
+package com.zz.basemvpmodule;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,10 +12,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.BaseMvpView;
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.BasePresenter;
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.PresenterDispatch;
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.PresenterProviders;
+import com.zz.basemvpmodule.basemvp.BaseMvpView;
+import com.zz.basemvpmodule.basemvp.BasePresenter;
+import com.zz.basemvpmodule.basemvp.PresenterDispatch;
+import com.zz.basemvpmodule.basemvp.PresenterProviders;
 
 
 /**

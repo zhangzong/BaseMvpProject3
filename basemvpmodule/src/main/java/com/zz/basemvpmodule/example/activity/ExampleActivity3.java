@@ -1,11 +1,11 @@
-package com.zhangzong.basemvpmodule.basemvpproject.example.activity;
+package com.zz.basemvpmodule.example.activity;
 
 import android.util.Log;
 
-import com.zhangzong.basemvpmodule.basemvpproject.BaseMvpActivity;
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.CreatePresenter;
-import com.zhangzong.basemvpmodule.basemvpproject.example.login.LoginPresenter;
-import com.zhangzong.basemvpmodule.basemvpproject.example.login.LoginView;
+import com.zz.basemvpmodule.BaseMvpActivity;
+import com.zz.basemvpmodule.basemvp.CreatePresenter;
+import com.zz.basemvpmodule.example.login.LoginPresenter;
+import com.zz.basemvpmodule.example.login.LoginView;
 
 
 /**

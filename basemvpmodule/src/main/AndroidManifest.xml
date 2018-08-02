@@ -1,2 +1,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zhangzong.basemvpmodule" />
+    package="com.zz.basemvpmodule" >
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".example.activity.ExampleActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".example.activity.ExampleActivity2" />
+        <activity android:name=".example.activity.ExampleActivity3" />
+        <activity android:name=".example.activity.ExampleActivity4" />
+        <activity android:name=".example.activity.ExampleActivity5" />
+    </application>
+</manifest>

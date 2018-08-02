@@ -1,7 +1,7 @@
-package com.zhangzong.basemvpmodule.basemvpproject.example.register;
+package com.zz.basemvpmodule.example.register;
 
 
-import com.zhangzong.basemvpmodule.basemvpproject.basemvp.BasePresenter;
+import com.zz.basemvpmodule.basemvp.BasePresenter;
 
 /**
  * Created by zhangzong on 31/7/2018.

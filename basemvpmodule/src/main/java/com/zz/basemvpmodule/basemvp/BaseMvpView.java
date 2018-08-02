@@ -1,4 +1,4 @@
-package com.zhangzong.basemvpmodule.basemvpproject.basemvp;
+package com.zz.basemvpmodule.basemvp;
 
 /**
  * Created by zhangzong on 31/7/2018.

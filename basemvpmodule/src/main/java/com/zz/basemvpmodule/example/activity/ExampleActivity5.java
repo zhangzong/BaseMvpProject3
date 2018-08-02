@@ -1,7 +1,7 @@
-package com.zhangzong.basemvpmodule.basemvpproject.example.activity;
+package com.zz.basemvpmodule.example.activity;
 
 
-import com.zhangzong.basemvpmodule.basemvpproject.BaseMvpActivity;
+import com.zz.basemvpmodule.BaseMvpActivity;
 
 /**
  * Created by zhangzong on 31/7/2018.
