@@ -1,8 +1,7 @@
 package com.zz.basemvpmodule.example.activity;
 
-
 import com.zz.basemvpmodule.BaseMvpActivity;
-
+import com.zz.basemvpmodule.R;
 /**
  * 例子4：不使用 mvp 的情况
  * Created by zhangzong on 31/7/2018.

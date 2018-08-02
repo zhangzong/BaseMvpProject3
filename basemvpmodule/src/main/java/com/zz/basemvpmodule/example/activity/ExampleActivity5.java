@@ -1,6 +1,6 @@
 package com.zz.basemvpmodule.example.activity;
 
-
+import com.zz.basemvpmodule.R;
 import com.zz.basemvpmodule.BaseMvpActivity;
 
 /**

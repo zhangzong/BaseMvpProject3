@@ -1,7 +1,7 @@
 package com.zz.basemvpmodule.example.activity;
 
 import android.util.Log;
-
+import com.zz.basemvpmodule.R;
 import com.zz.basemvpmodule.BaseMvpFragment;
 import com.zz.basemvpmodule.basemvp.CreatePresenter;
 import com.zz.basemvpmodule.basemvp.PresenterVariable;
