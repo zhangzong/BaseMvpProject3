@@ -10,8 +10,10 @@ allprojects {
 		}
 	}
   
+  
+  
   Step 2. Add the dependency
 
 dependencies {
-	        implementation 'com.github.zhangzong:BaseMvpProject3:v1.0.4'
+	        implementation 'com.github.zhangzong:BaseMvpProject3:v1.0.5'
 	}
