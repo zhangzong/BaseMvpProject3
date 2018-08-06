@@ -139,14 +139,15 @@ public class RestClient {
         init(baseUrl, requestHeaderParameter);
         Object result = null;
         String name = clazz.getName();
-            result = mRetrofit.create(clazz);
+        result = mRetrofit.create(clazz);
         return (T) result;
     }
+
     public <T> T getApi(Class<T> clazz, String baseUrl) {
         init(baseUrl);
         Object result = null;
         String name = clazz.getName();
-            result = mRetrofit.create(clazz);
+        result = mRetrofit.create(clazz);
         return (T) result;
     }
 
@@ -161,7 +162,7 @@ public class RestClient {
             throw new IllegalStateException("contextとbaseUrlセットしてください。baseurl");
         }
         OkHttpClient.Builder builder = new OkHttpClient().newBuilder();
-        mOkHttpClient = builder.addInterceptor(new OkHttpClientInterceptor(requestHeaderParameter,true))
+        mOkHttpClient = builder.addInterceptor(new OkHttpClientInterceptor(requestHeaderParameter, true))
                 .retryOnConnectionFailure(true)
                 .connectTimeout(getTimeOut(), TimeUnit.SECONDS)
                 .readTimeout(getReadTimeOut(), TimeUnit.SECONDS)
@@ -185,6 +186,7 @@ public class RestClient {
 //        retrofitBuilder.addCallAdapterFactory(RxJavaCallAdapterFactory.create());
         mRetrofit = retrofitBuilder.build();
     }
+
     /**
      * please set baseUrl at first
      */
